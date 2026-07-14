@@ -1,7 +1,7 @@
 // GL degree-one vortex interval certificate
 //
-// Compact CAPD adaptation of the AYMH Part I v6 certificate style to the
-// non-magnetic Ginzburg-Landau vortex used in Section 6 of GL-arxiv-final.
+// CAPD interval-arithmetic verifier for the non-magnetic degree-one
+// Ginzburg-Landau vortex used in Section 6 of GL-arxiv-final.
 
 #include <capd/capdlib.h>
 #ifdef GL_USE_MP
