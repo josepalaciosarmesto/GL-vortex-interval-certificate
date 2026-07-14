@@ -1,8 +1,8 @@
 # GL vortex interval certificate
 
-This package adapts the interval-arithmetic certificate architecture from the AYMH hardercase to the non-magnetic degree-one Ginzburg-Landau vortex in Section 6 of GL-arxiv-final.tex.
+This repository contains the CAPD/C++ interval-arithmetic certificate for the degree-one Ginzburg--Landau vortex estimates used in Section 6 of `GL-arxiv-final.tex`.
 
-The GL numerical burden is smaller than the AYMH one. Section 6 needs a certified vortex profile, U'(0), positivity of r^-2 - 3(1-U^2) before the turning point, the boundary check at r=7, and the Lieb-Thirring compact integral. It does not need the AYMH internal-mode eigenvalue, threshold Wronskian, outgoing Weyl, distorted Fourier, or FGR blocks.
+The verifier certifies the vortex shooting interval, positivity of $r^{-2}-3(1-U^2)$ up to the turning radius, the boundary inequality at $r=7$, and the Lieb-Thirring compact integral.
 
 Revised verifier constants:
 
