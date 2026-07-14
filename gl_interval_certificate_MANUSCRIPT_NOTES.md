@@ -96,6 +96,11 @@ Therefore
 \]
 ~~~
 
-## Why no eigenvalue computation is included
+## Scope of the verifier
 
-Unlike the AYMH hardercase, GL Section 6 does not need a numerical internal-mode eigenvalue. It only needs a lower bound excluding eigenvalues below approximately 1.3324. The verifier therefore omits all AYMH blocks for internal-mode Evans functions, threshold Wronskians, outgoing Weyl solutions, and FGR coefficients.
+Section 6 only requires a certified lower bound excluding eigenvalues below
+approximately \(1.3324\). Accordingly, the verifier checks the vortex shooting
+interval, positivity up to the turning radius, the boundary inequality at
+\(r=7\), and the Lieb--Thirring estimate. It does not perform a separate
+numerical internal-mode eigenvalue computation or additional spectral
+calculations.
